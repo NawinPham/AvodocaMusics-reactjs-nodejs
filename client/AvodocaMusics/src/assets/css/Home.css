@@ -1,0 +1,82 @@
+.home{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.newAlbum{
+    display: flex;
+    overflow-x: auto; /* Kích hoạt cuộn ngang */
+    overflow-y: hidden; /* Kích hoạt cuộn ngang */
+    scroll-snap-type: x mandatory; /* Giúp cuộn mượt */
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+    padding: 20px;
+    padding-bottom: 70px ;
+    border-top: 1px solid #363636;
+}
+
+
+.newAlbum::-webkit-scrollbar{
+    width: 7px; /* Ẩn thanh cuộn */
+    height: 10px;
+  }
+
+.newAlbum::-webkit-scrollbar-thumb:hover{
+    background-color: #888; /* Màu của thanh cuộn */
+  }
+
+.albumCard{
+    flex: 0 0 35%; /* Mỗi sản phẩm chiếm 25% chiều rộng */
+    max-width: 40%;
+    scroll-snap-align: start; /* Căn sản phẩm đầu tiên khi cuộn */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ccc6c626;
+    color: aliceblue;
+}
+
+.albumCard > span{
+    padding-left: 10px;
+}
+
+.image {
+    border-radius: 10px;
+    width: 100%; /* Chiều rộng của hình ảnh bằng với thẻ albumCard */
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh vừa khít khung mà không bị méo */
+    margin: 0 auto; /* Căn giữa hình ảnh */
+}
+.image:hover{   
+    transform: scale(1.03);
+}
+
+
+.song-card{
+
+    flex: 0 0 25%; /* Mỗi sản phẩm chiếm 25% chiều rộng */
+    max-width: 20%;
+    scroll-snap-align: start; /* Căn sản phẩm đầu tiên khi cuộn */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ccc6c626;
+    color: aliceblue;
+}
+
+.song-card > span{
+    padding-left: 10px;
+}
+
+.footer{
+    border-top: 1px solid rgb(54, 54, 54);
+    margin: 50px 250px;
+    margin-right: 100px;
+    display: flex;
+    padding-top: 25px;
+    color: #aeaeae;
+}
+
+.footer a {
+    padding-right: 30px;
+}
+
+
+

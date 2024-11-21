@@ -1,0 +1,61 @@
+.album-detail{
+    display: flex;
+}
+.image-album{
+    width: 500px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.image-album > img{
+    border-radius: 10px;
+    width: 100%; /* Chiều rộng của hình ảnh bằng với thẻ albumCard */
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh vừa khít khung mà không bị méo */
+    margin: 0 auto;
+} 
+
+.title-album{
+    padding-left: 20px;
+}
+
+.album-list-song > ul {
+    padding: 0;
+}
+
+.album-list-song > ul > li {
+    height: 70px;
+    padding-left: 15px;
+    margin-right: 70px;
+    border-radius: 5px;
+    line-height: 70px;
+}
+.album-list-song > ul > li > a :hover {
+    color: #30720e;
+}
+
+
+.album-list-song > ul > li > a > span{
+    padding: 15px 15px;
+}
+.album-list-song > ul > li > a > img{
+    width: 30px;
+}
+.album-list-song > ul > li > span{
+    padding: 0 15px;
+}
+  
+.album-list-song ul li:nth-child(even) {
+    background-color: #2b2b2b; /* Màu nền cho mục chẵn */
+}
+
+.description-album{
+    padding: 35px 0;
+}
+
+.album-image{
+    width: 300px;
+}
+
+
+

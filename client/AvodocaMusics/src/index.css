@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(40, 40, 40);
+}
+
+ li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.Boxshadow-image{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.SideBar{
+  padding-left: 50px;
+}
+
+.SideBar > li {
+  text-align: left;
+}
+
+.SideBar > li :hover {
+  color: #30720e;
+}
+
+.search{
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.search > input{
+  background-color: rgb(40, 40, 40);
+  border: 1px solid #363636;
+  padding-left: 10px;
+  outline: none;
+}
+.search > input:hover {
+  border: 1px solid  #30720e;
+}
+.search > input:focus {
+  border-color: #30720e;
+}
+
+.tag-a-hover:hover{
+  color: #30720e;
+}
+
+/* Kiểu dáng của nút dropdown */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  min-width: 50px;
+  background-color: #2f720e00;
+}
+
+/* Bố trí của dropdown */
+.dropdown {
+  display: inline-block;
+  list-style: none;
+  position: absolute;
+  right: 0
+}
+
+/* Nội dung dropdown (ẩn đi mặc định) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #30720e;
+  min-width: 100px;
+  z-index: 1;
+  right: 0; /* Căn về bên phải */
+  border-radius: 10px;
+  top: -1px;
+}
+
+
+/* Đổi màu liên kết khi di chuột qua */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Hiển thị dropdown khi người dùng di chuột qua nút */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.AlbumName{
+  display: inline-block;
+  list-style: none;
+  position: absolute;
+  
+}
