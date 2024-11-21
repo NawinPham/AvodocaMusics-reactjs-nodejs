@@ -1,0 +1,17 @@
+.home{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.footer{
+    border-top: 1px solid rgb(54, 54, 54);
+    margin: 50px 250px;
+    margin-right: 100px;
+    display: flex;
+    padding-top: 25px;
+    color: #aeaeae;
+}
+
+.footer a {
+    padding-right: 30px;
+}

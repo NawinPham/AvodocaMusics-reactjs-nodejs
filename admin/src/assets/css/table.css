@@ -1,0 +1,12 @@
+.btn-update-hover :hover{
+    background-color: #30720e;
+}
+.change-page{
+    text-align: center;
+}
+
+.table-bordered  > td {
+    border-left: 1px solid #4d5154; /* Kẻ đường biên cho cả cột và hàng */
+    padding: 8px; /* Khoảng cách giữa nội dung và biên */
+    text-align: left;
+}

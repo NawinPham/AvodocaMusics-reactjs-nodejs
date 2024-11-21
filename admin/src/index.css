@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(40, 40, 40);
+}
+
+ li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.Boxshadow-image{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.SideBar{
+  padding-left: 50px;
+}
+
+.SideBar > li {
+  text-align: left;
+}
+
+.SideBar > li :hover {
+  color: #30720e;
+}
+
+.search{
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.search > input{
+  background-color: rgb(40, 40, 40);
+  border: 1px solid #363636;
+  padding-left: 10px;
+  outline: none;
+}
+.search > input:hover {
+  border: 1px solid  #30720e;
+}
+.search > input:focus {
+  border-color: #30720e;
+}
